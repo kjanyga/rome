@@ -5,7 +5,7 @@
 
     <groupId>com.rometools</groupId>
     <artifactId>rome-parent</artifactId>
-    <version>1.7.2-SNAPSHOT</version>
+    <version>1.7.2-OPENBEANS-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
@@ -209,42 +209,42 @@
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome</artifactId>
-                <version>1.7.2-SNAPSHOT</version>
+                <version>1.7.2-OPENBEANS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-certiorem</artifactId>
-                <version>1.7.2-SNAPSHOT</version>
+                <version>1.7.2-OPENBEANS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-certiorem-webapp</artifactId>
-                <version>1.7.2-SNAPSHOT</version>
+                <version>1.7.2-OPENBEANS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-fetcher</artifactId>
-                <version>1.7.2-SNAPSHOT</version>
+                <version>1.7.2-OPENBEANS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-modules</artifactId>
-                <version>1.7.2-SNAPSHOT</version>
+                <version>1.7.2-OPENBEANS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-opml</artifactId>
-                <version>1.7.2-SNAPSHOT</version>
+                <version>1.7.2-OPENBEANS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-propono</artifactId>
-                <version>1.7.2-SNAPSHOT</version>
+                <version>1.7.2-OPENBEANS-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>com.rometools</groupId>
                 <artifactId>rome-utils</artifactId>
-                <version>1.7.2-SNAPSHOT</version>
+                <version>1.7.2-OPENBEANS-SNAPSHOT</version>
             </dependency>
             <!-- JDOM -->
             <dependency>
@@ -340,4 +340,18 @@
         </dependencies>
     </dependencyManagement>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.googlecode</groupId>
+            <artifactId>openbeans</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>RedHat</id>
+            <name>RedHat maven repository</name>
+            <url>https://maven.repository.redhat.com/ga/</url>
+        </repository>
+    </repositories>
 </project>

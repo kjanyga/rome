@@ -15,10 +15,10 @@
  */
 package com.rometools.fetcher.impl;
 
-import java.beans.EventSetDescriptor;
-import java.beans.SimpleBeanInfo;
 import java.lang.reflect.Method;
 
+import com.googlecode.openbeans.EventSetDescriptor;
+import com.googlecode.openbeans.SimpleBeanInfo;
 import com.rometools.fetcher.FetcherEvent;
 import com.rometools.fetcher.FetcherListener;
 
